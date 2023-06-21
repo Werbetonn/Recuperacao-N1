@@ -1,9 +1,8 @@
-print('Digite seu cupom no campo abaixo e verifique se o mesmo é válido')
+print('\nDigite seu cupom no campo abaixo e verifique se o mesmo é válido')
 
-cupom = int(input("Digite o número do cupom: "))
+cupom = int(input("\nDigite o número do cupom: "))
 
 if  75 <= cupom <= 208:
-    print('Cupom válido')
+    print('\nCupom válido')
 else:
-    print('Cupom inválido')
-
+    print('\nCupom inválido')
